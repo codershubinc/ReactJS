@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import Api_Handling from './Api_Handling.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot (document.getElementById ('root')).render (
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+    <Api_Handling/>
+  </React.StrictMode>
+);
