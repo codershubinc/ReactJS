@@ -1,15 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ const [curruncy, setCurruncy] = useState('USD')
+ const [amount, setAmount] = useState(0)
 
   return (
     <>
-      <div>
-        <button> jjj</button>
-        <img src={reactLogo} className="logo w-10" alt="logo" />
+      <div className='flex flex-wrap ' >
+        <button className="w-12 h-8 bg-gray-800  rounded-lg hover:rounded-xl border-2 border-solid border-gray-800  transition-all   hover:bg-slate-600"> Click </button>
       </div>
     </>
   )
